@@ -42,5 +42,5 @@ This website is fully responsive and optimized to work across various devices:
 ## Contact
 
 Feel free to reach out for collaboration or inquiries:
-- **Email**: [chandankhuntia@example.com](mailto:chandankhuntia@example.com)
-- **LinkedIn**: [LinkedIn Profile](#) (Replace with your LinkedIn URL)
+- **Email**: [khuntiachandan26@gmail.com]
+- **LinkedIn**: [https://www.linkedin.com/in/chandan-khuntia-689469208/] 
