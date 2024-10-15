@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+
+        <a href="#home" class="logo">
+            Chandan <span>Khuntia</span>
+        </a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <!-- <div id="menu-icon">☰</div> -->
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <!-- Resume Button -->
+        <a href="resume.pdf" target="_blank" class="gradient-btn">Resume</a>
+
+        <button id="mode-toggle" class="mode-btn">🌙</button>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi there, <span>Chandan</span></h1>
+            <h3>I'm a <span>Developer</span></h3>
+            <p>CSE Graduate | Fresher 2024. </p>
+
+            <div class="social-icons">
+                <a href="https://github.com/Chandan-7-hash?tab=repositories">
+                    <i class='bx bxl-github'></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/chandan-khuntia-689469208/">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+
+                <a href="https://www.youtube.com/@ChandanKhuntia-f2c">
+                    <i class='bx bxl-youtube'></i>
+                </a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="file.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="file.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>Greetings! My name is Chandan Khuntia, and I have a Bachelor's degree in Computer Science and Engineering from XIM University'24. I have an immense passion for all things related to computers, and I enjoy working on exciting and challenging projects using various technologies. <br><br>
+
+            I enjoy singing, and playing chess in my leisuretime. Please feel free to connect with me on mysocial media handles! Thank you for visiting my website!</p>
+            <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+        
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+    
+        <div class="services-container">
+            <!-- Service 1 -->
+            <div class="service-box">
+                <div class="service-info">
+                    <i class='bx bxl-figma'></i>
+                    <h4>Web Developer</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repudiandae.</p>
+                </div>
+            </div>
+    
+            <!-- Service 2 -->
+            <div class="service-box">
+                <div class="service-info">
+                    <i class='bx bx-code'></i>
+                    <h4>Java Developer</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repudiandae.</p>
+                </div>
+            </div>
+    
+            <!-- Service 3 -->
+            <div class="service-box">
+                <div class="service-info">
+                    <i class='bx bx-code-curly'></i>
+                    <h4>Python Developer</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, repudiandae.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+    
+        <div class="projects-box">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="Project1.png" alt="Project 1 Image">
+                <h3>Personal Portfolio</h3>
+                <p>This is the project that you are currently viewing!</p>
+                <div class="btn">Review Project</div>
+            </div>
+    
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="Project2.png" alt="Project 2 Image">
+                <h3>E-Commerce Apllication.</h3>
+                <p>An E-Commerce application which is built using Django Framework. It allows user to add/delete items to cart, make payments.</p>
+                <div class="btn">Review Project</div>
+            </div>
+    
+            <!-- Project 3 -->
+            <div class="project-card">
+                <img src="Project3.png" alt="Project 3 Image">
+                <h3>Gym Management System</h3>
+                <p>A Gym Management System which is built using HTML, CSS, JS and Firebase. It has 3 types of users: Admin, Memebers and User. Admin can create bills, assign fee package and assign notification for monthly. Members can view bill receipts and view bill notification and User can view details and search records</p>
+                <div class="btn">Review Project</div>
+            </div>
+    
+            <!-- Project 4 -->
+            <div class="project-card">
+                <img src="Screenshot (1316).png" alt="Project 4 Image">
+                <h3>Project 4</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tenetur nulla vero temporibus cum quis?</p>
+                <div class="btn">Review Project</div>
+            </div>
+        </div>
+
+        <p>For more projects visit 
+            <a href="https://github.com/Chandan-7-hash?tab=repositories" target="_blank">github.com/Chandan Khuntia</a>.
+        </p>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea name="" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://github.com/Chandan-7-hash?tab=repositories">
+                <i class='bx bxl-github'></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/chandan-khuntia-689469208/">
+                <i class='bx bxl-linkedin-square'></i>
+            </a>
+
+            <a href="https://www.youtube.com/@ChandanKhuntia-f2c">
+                <i class='bx bxl-youtube'></i>
+            </a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+
+            <li>
+                <a href="#services">Services</a>
+            </li>
+
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact Me</a>
+            </li>
+        </ul>
+
+        <p class="copyright">
+            &#169 Chandan Khuntia | All Rights Reserved 2024
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script>
+        // JavaScript for mobile menu toggle
+        const menuIcon = document.getElementById("menu-icon");
+        const navbar = document.querySelector(".navbar");
+
+        menuIcon.addEventListener("click", () => {
+            navbar.classList.toggle("show");
+        });
+    </script>
+
+</body>
+</html>
