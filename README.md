@@ -39,10 +39,6 @@ This website is fully responsive and optimized to work across various devices:
 - **GitHub Link**: A clickable link that redirects visitors to my GitHub repository page.
 - **Custom Styles**: The **Chandan Khuntia** link is styled in bold and orange, with hover effects for better user experience.
 
-## Live Website
-
-Visit my website: [Chandan Khuntia's Portfolio](#) (Replace with your website link)
-
 ## Contact
 
 Feel free to reach out for collaboration or inquiries:
